@@ -11,7 +11,7 @@ const projects = [
   {
     title: "Event ticketing App",
     description: "A modern event ticketing application with real-time features and payment gateway.",
-    imageUrl: "/images/event.png",
+    imageUrl: "/images/event.jpg",
     link: "#project2",
   },
   {
