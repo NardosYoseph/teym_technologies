@@ -6,7 +6,7 @@ const projects = [
     title: "E-Commerce Platform",
     description: "A robust e-commerce solution with a seamless user experience.",
     imageUrl: "/images/ecom.png", // Replace with actual project images
-    link: "#project1",
+    link: "https://ayzot.com.et/",
   },
   {
     title: "Event ticketing App",
@@ -18,13 +18,13 @@ const projects = [
     title: "Church Website",
     description: "A modern portfolio website showcasing creative works.",
     imageUrl: "/images/church.png",
-    link: "#project3",
+    link: "https://ejerechangare.vercel.app/",
   },
   {
     title: "Portfolio website",
     description: "A modern portfolio website showcasing creative works.",
     imageUrl: "/images/port.png",
-    link: "#project4",
+    link: "https://nardosportfolio.netlify.app/",
   }
 ];
 
@@ -61,7 +61,7 @@ const ShowcaseProjects = () => {
                   href={project.link}
                   className="inline-block bg-blue-500 text-white font-bold py-2 px-4 rounded transition duration-300 hover:bg-blue-600"
                 >
-                  View Details
+                 Visit Project
                 </a>
               </div>
             </motion.div>
