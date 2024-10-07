@@ -23,16 +23,16 @@ const Footer = () => {
           <h3 className="text-lg font-semibold mb-2">Quick Links</h3>
           <ul className="space-y-2">
             <li>
-              <Link href="/about" className="hover:text-blue-400 transition-colors duration-300">About Us</Link>
+              <Link href="/pages/aboutus" className="hover:text-blue-400 transition-colors duration-300">About Us</Link>
             </li>
             <li>
-              <Link href="/services" className="hover:text-blue-400 transition-colors duration-300">Services</Link>
+              <Link href="/pages/services" className="hover:text-blue-400 transition-colors duration-300">Services</Link>
             </li>
             <li>
-              <Link href="/projects" className="hover:text-blue-400 transition-colors duration-300">Projects</Link>
+              <Link href="/pages/projects" className="hover:text-blue-400 transition-colors duration-300">Projects</Link>
             </li>
             <li>
-              <Link href="/contact" className="hover:text-blue-400 transition-colors duration-300">Contact Us</Link>
+              <Link href="/pages/contact" className="hover:text-blue-400 transition-colors duration-300">Contact Us</Link>
             </li>
           </ul>
         </div>
@@ -42,16 +42,16 @@ const Footer = () => {
           <h3 className="text-lg font-semibold mb-2">Our Services</h3>
           <ul className="space-y-2">
             <li>
-              <Link href="/services/web-development" className="hover:text-blue-400 transition-colors duration-300">Web Development</Link>
+              <Link href="/pages/services" className="hover:text-blue-400 transition-colors duration-300">Web Development</Link>
             </li>
             <li>
-              <Link href="/services/app-development" className="hover:text-blue-400 transition-colors duration-300">App Development</Link>
+              <Link href="/pages/services" className="hover:text-blue-400 transition-colors duration-300">App Development</Link>
             </li>
             <li>
-              <Link href="/services/consulting" className="hover:text-blue-400 transition-colors duration-300">Consulting</Link>
+              <Link href="/pages/services" className="hover:text-blue-400 transition-colors duration-300">Consulting</Link>
             </li>
             <li>
-              <Link href="/services/marketing" className="hover:text-blue-400 transition-colors duration-300">Digital Marketing</Link>
+              <Link href="/pages/services" className="hover:text-blue-400 transition-colors duration-300">Digital Marketing</Link>
             </li>
           </ul>
         </div>
