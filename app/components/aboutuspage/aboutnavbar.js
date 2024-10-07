@@ -12,9 +12,9 @@ const Navbar = ({ isOverview }) => {
   return (
     <header className={`fixed w-full top-0 z-50 transition-all duration-300 ${isOverview ? 'bg-transparent' : 'bg-blue-600 shadow-md'}`}>
       <nav className="container mx-auto flex justify-between items-center py-4 px-6">
-        <Link href="/" className="text-2xl font-bold">
+      {!isOpen && (  <Link href="/" className="text-2xl font-bold">
           <span className={isOverview ? 'text-blue-100' : 'text-blue-100'}>TeymTech</span>
-        </Link>
+        </Link>)}
         <button
           className={`md:hidden ${isOverview ? 'text-blue-100' : 'text-blue-100'} focus:outline-none`}
           onClick={toggleMenu}
