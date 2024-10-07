@@ -13,35 +13,43 @@ const Navbar = ({ isOverview }) => {
     <header className={`fixed w-full top-0 z-50 transition-all duration-300 ${isOverview ? 'bg-transparent' : 'bg-blue-600 shadow-md'}`}>
       <nav className="container mx-auto flex justify-between items-center py-4 px-6">
        
-        <button
-          className={`md:hidden ${isOverview ? 'text-black' : 'text-blue-100'} focus:outline-none`}
-          onClick={toggleMenu}
+      <button
+  className={`md:hidden ${isOverview ? 'text-black' : 'text-blue-100'} focus:outline-none`}
+  onClick={toggleMenu}
+>
+  {isOpen ? (
+    <svg
+      className="w-6 h-6"
+      xmlns="http://www.w3.org/2000/svg"
+      fill="none"
+      viewBox="0 0 24 24"
+      stroke="currentColor"
+    >
+      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M6 18L18 6M6 6l12 12" />
+    </svg>
+  ) : (
+    <div className="container mx-auto flex justify-between items-center py-4 px-6">
+      <Link href="/" className="text-2xl font-bold">
+        <div>
+          <span className={isOverview ? 'text-black' : 'text-blue-100'}>TeymTech</span>
+        </div>
+      </Link>
+      {/* Add margin-right to the TeymTech link */}
+      <div className="ml-4">
+        <svg
+          className="w-6 h-6"
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke="currentColor"
         >
-          {isOpen ? (
-            <svg
-              className="w-6 h-6"
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke="currentColor"
-            >
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M6 18L18 6M6 6l12 12" />
-            </svg>
-          ) : (
-            <div className="container mx-auto flex justify-between items-center py-4 px-6"><Link href="/" className="text-2xl font-bold">
-              <div>  <span className={isOverview ? 'text-black' : 'text-blue-100'}>TeymTech</span></div>
-               </Link>
-               <div><svg
-                className="w-6 h-6"
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-              >
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16m-7 6h7" />
-                </svg></div></div>
-          )}
-        </button>
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16m-7 6h7" />
+        </svg>
+      </div>
+    </div>
+  )}
+</button>
+
         <ul className={`flex space-x-6 md:flex md:items-center ${isOpen ? "block" : "hidden"} md:block`}>
           {[
             { label: 'Home', href: '/' },
