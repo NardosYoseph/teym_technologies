@@ -1,14 +1,11 @@
 "use client"
 import { useEffect, useState } from "react";
-import Navbar from "@/app/components/navbar";
-import CompanyBackground from "@/app/components/aboutuspage/companybg";
+import Navbar from "@/app/components/aboutuspage/aboutnavbar";
 import Footer from "@/app/components/footer";
-import VisionMission from "@/app/components/aboutuspage/vission";
-import TeamSection from "@/app/components/aboutuspage/team";
-import Achievements from "@/app/components/aboutuspage/achivements";
 import Services from "@/app/components/services/servicelist";
 import Technologies from "@/app/components/services/tools";
 import DetailsSection from "@/app/components/services/detail";
+import ServicesHero from "@/app/components/services/hero";
 
 export default function AboutUs() {
   const [isOverview, setIsOverview] = useState(true);
@@ -31,9 +28,10 @@ export default function AboutUs() {
   return (
     <div className="min-h-screen p-0">
         <Navbar isOverview={isOverview} />
+        <ServicesHero/>
         <Services />
         {/* <DetailsSection/> */}
-        <Technologies/>
+        {/* <Technologies/> */}
         <Footer/>
     </div>
   );

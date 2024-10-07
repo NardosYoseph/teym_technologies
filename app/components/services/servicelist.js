@@ -18,20 +18,20 @@ const services = [
     icon: "🎨",
   },
   {
-    title: "Digital Marketing",
-    description: "Helping you reach your audience through targeted strategies.",
-    icon: "📈",
-  },
-  {
-    title: "Cloud Services",
-    description: "Offering scalable cloud solutions tailored to your needs.",
-    icon: "☁️",
-  },
-  {
     title: "E-commerce Solutions",
     description: "Building robust e-commerce platforms to enhance sales.",
     icon: "🛒",
   },
+  {
+    title: "API Integration",
+    description: "Seamlessly integrate third-party APIs to enhance your platform's capabilities.",
+    icon: "🔌",
+  },
+  {
+    title: "Maintenance & Support",
+    description: "Providing ongoing support and maintenance to ensure the smooth operation of your systems.",
+    icon: "🛠️",
+  }
 ];
 
 const Services = () => {

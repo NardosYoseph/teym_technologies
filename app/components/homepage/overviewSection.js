@@ -20,7 +20,7 @@ export default function Overview() {
   }, []);
 
   return (
-    <div id="overview" className="fixed w-full h-screen overflow-hidden ">
+    <div id="overview" className="relative w-full h-screen overflow-hidden ">
       
       {/* Background Video */}
       <video

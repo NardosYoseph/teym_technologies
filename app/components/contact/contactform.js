@@ -32,13 +32,13 @@ const ContactForm = () => {
   };
 
   return (
-    <section className="py-20 bg-gray-100" id="contact">
+    <section className="py-20 bg-gray-100" id="contact-form" >
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
-          <h2 className="text-4xl font-extrabold text-gray-800 mb-4">Contact Us</h2>
+          {/* <h2 className="text-4xl font-extrabold text-gray-800 mb-4">Contact Us</h2>
           <p className="text-lg text-gray-600">
             We'd love to hear from you! Fill out the form below and we'll get back to you shortly.
-          </p>
+          </p> */}
         </div>
         <motion.form
           onSubmit={handleSubmit}

@@ -9,14 +9,14 @@ export default function CompanyBackground() {
           </h2>
   
           {/* Background Image (optional) */}
-          {/* <div className="absolute inset-0 opacity-20">
+           <div className="absolute inset-0 opacity-20">
             <img
-              src="/path/to/background-image.jpg"
+              src="/images/bg.jpg"
               alt="Company Background"
               className="w-full h-full object-cover"
             />
-          </div> */}
-  
+          </div>
+   
           {/* Content */}
           <div className="relative z-10 space-y-6 text-center">
             <p className="text-lg lg:text-xl leading-relaxed max-w-4xl mx-auto animate-slideUp">

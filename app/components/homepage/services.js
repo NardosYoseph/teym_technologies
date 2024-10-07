@@ -9,25 +9,36 @@ const features = [
     icon: "💻",
   },
   {
-    title: "Cloud Solutions",
-    description: "Scale your business with our robust cloud solutions.",
-    icon: "☁️",
-  },
-  {
     title: "Mobile App Development",
-    description: "Get feature-rich and high-performance mobile apps.",
+    description: "Get feature-rich and high-performance mobile apps for iOS and Android.",
     icon: "📱",
   },
   {
-    title: "AI & Machine Learning",
-    description: "Harness the power of AI to transform your business.",
-    icon: "🤖",
+    title: "API Integration",
+    description: "Seamlessly integrate third-party APIs to enhance your platform's capabilities.",
+    icon: "🔌",
+  },
+  {
+    title: "E-commerce Development",
+    description: "Developing scalable and secure e-commerce platforms to grow your business.",
+    icon: "🛒",
+  },
+  {
+    title: "UI/UX Designing",
+    description: "Design intuitive user interfaces and engaging user experiences for your products.",
+    icon: "🎨",
+  },
+  {
+    title: "Maintenance & Support",
+    description: "Providing ongoing support and maintenance to ensure the smooth operation of your systems.",
+    icon: "🛠️",
   },
 ];
 
+
 const KeyFeatures = () => {
   return (
-    <section className="py-20 bg-gray-100 m-0 z-50 mt-[680px]">
+    <section className="py-20 bg-gray-100 m-0 z-50 ">
       {/* <Navbar isOverview={true}/> */}
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
@@ -38,7 +49,7 @@ const KeyFeatures = () => {
             Discover the services we offer to help your business grow.
           </p>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {features.map((feature, index) => (
             <motion.div
               key={index}

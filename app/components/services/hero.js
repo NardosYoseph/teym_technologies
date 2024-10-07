@@ -1,32 +1,33 @@
 "use client";
 import { motion } from "framer-motion";
 
-const HeroSection = () => {
+const ServicesHero = () => {
   return (
-    <section id="project" className="relative bg-gradient-to-r from-blue-500 to-blue-700 text-white py-20">
-      <div className="container mx-auto px-4">
+    <section className="relative bg-blue-600 text-white py-20 md:py-32">
+      <div className="container mx-auto px-6 md:px-12">
         <motion.div
           initial={{ opacity: 0, y: -50 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 1, ease: "easeInOut" }}
           className="text-center"
         >
-          <h1 className="text-5xl font-extrabold mb-4">
-            Our Projects
+          <h1 className="text-4xl md:text-6xl font-bold mb-6">
+            Our Services
           </h1>
-          <p className="text-lg mb-6">
-            Discover the innovative projects we have delivered for our clients. 
-            We take pride in our work and aim to exceed expectations.
+          <p className="text-lg md:text-2xl mb-6 max-w-3xl mx-auto">
+            Empowering your business with innovative, high-quality solutions, ranging from custom software to mobile app development and beyond.
           </p>
           <motion.a
-            href="#showcase"
+            href="#services"
             className="inline-block px-8 py-4 bg-white text-blue-600 font-semibold rounded-lg shadow-lg hover:bg-blue-200 transition-all"
             whileHover={{ scale: 1.1 }}
           >
-            View Projects
+            Explore Our Services
           </motion.a>
         </motion.div>
       </div>
+
+      {/* Decorative shapes for the hero section */}
       <motion.div
         initial={{ scale: 0.8, opacity: 0 }}
         animate={{ scale: 1, opacity: 0.2 }}
@@ -43,4 +44,4 @@ const HeroSection = () => {
   );
 };
 
-export default HeroSection;
+export default ServicesHero;

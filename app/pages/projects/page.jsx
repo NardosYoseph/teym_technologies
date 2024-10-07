@@ -16,7 +16,7 @@ export default function AboutUs() {
   const [isOverview, setIsOverview] = useState(true);
 
   const handleScroll = () => {
-    const overviewSection = document.getElementById("projects");
+    const overviewSection = document.getElementById("project");
     if (overviewSection) {
       const rect = overviewSection.getBoundingClientRect();
       setIsOverview(rect.top >= 0 && rect.bottom >= 0);
