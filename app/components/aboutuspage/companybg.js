@@ -20,7 +20,7 @@ export default function CompanyBackground() {
           {/* Content */}
           <div className="relative z-10 space-y-6 text-center">
             <p className="text-lg lg:text-xl leading-relaxed max-w-4xl mx-auto animate-slideUp">
-              Founded in 2010, <span className="text-blue-400 font-semibold">Teym Technologies</span> started with a simple vision: 
+              Founded in 2020, <span className="text-blue-400 font-semibold">Teym Technologies</span> started with a simple vision: 
               to provide cutting-edge digital solutions that empower businesses to scale and succeed in the ever-evolving digital landscape.
               Over the years, we’ve grown into a team of passionate innovators, helping clients across the globe to transform ideas into reality.
             </p>
@@ -37,7 +37,7 @@ export default function CompanyBackground() {
             
             {/* Call to Action */}
             <a
-              href="/contact"
+              href="/pages/contact"
               className="inline-block px-8 py-4 mt-8 bg-blue-500 text-white font-bold rounded-lg shadow-lg hover:bg-blue-400 transition-all duration-300 ease-in-out animate-bounce"
             >
               Get in Touch

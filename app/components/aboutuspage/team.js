@@ -5,22 +5,22 @@ const teamMembers = [
   {
     name: "Alice Smith",
     role: "CEO",
-    image: "https://via.placeholder.com/150", // Replace with actual image URLs
+    image: "/images/ceo.jpg", // Replace with actual image URLs
   },
   {
     name: "Bob Johnson",
     role: "CTO",
-    image: "https://via.placeholder.com/150", // Replace with actual image URLs
+    image: "/images/cto.jpg", // Replace with actual image URLs
   },
   {
     name: "Charlie Brown",
     role: "Designer",
-    image: "https://via.placeholder.com/150", // Replace with actual image URLs
+    image: "/images/mgr.jpg", // Replace with actual image URLs
   },
   {
     name: "Diana Prince",
     role: "Product Manager",
-    image: "https://via.placeholder.com/150", // Replace with actual image URLs
+    image: "/images/mgr2.jpg", // Replace with actual image URLs
   },
 ];
 

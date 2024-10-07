@@ -4,19 +4,19 @@ import { motion } from "framer-motion";
 const achievements = [
   {
     title: "Projects Completed",
-    count: 250,
+    count: 50,
   },
   {
     title: "Happy Clients",
-    count: 120,
+    count: 30,
   },
   {
     title: "Years of Experience",
-    count: 10,
+    count: 4,
   },
   {
     title: "Awards Won",
-    count: 15,
+    count: 5,
   },
 ];
 

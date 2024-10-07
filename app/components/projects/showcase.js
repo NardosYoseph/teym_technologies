@@ -5,39 +5,27 @@ const projects = [
   {
     title: "E-Commerce Platform",
     description: "A robust e-commerce solution with a seamless user experience.",
-    imageUrl: "https://via.placeholder.com/400", // Replace with actual project images
+    imageUrl: "/images/ecom.png", // Replace with actual project images
     link: "#project1",
   },
   {
-    title: "Mobile Banking App",
-    description: "A secure mobile banking application with real-time features.",
-    imageUrl: "https://via.placeholder.com/400",
+    title: "Event ticketing App",
+    description: "A modern event ticketing application with real-time features and payment gateway.",
+    imageUrl: "/images/event.png",
     link: "#project2",
   },
   {
-    title: "Portfolio Website",
+    title: "Church Website",
     description: "A modern portfolio website showcasing creative works.",
-    imageUrl: "https://via.placeholder.com/400",
+    imageUrl: "/images/church.png",
     link: "#project3",
   },
   {
-    title: "Real Estate Management System",
-    description: "An intuitive system for managing real estate listings.",
-    imageUrl: "https://via.placeholder.com/400",
+    title: "Portfolio website",
+    description: "A modern portfolio website showcasing creative works.",
+    imageUrl: "/images/port.png",
     link: "#project4",
-  },
-  {
-    title: "Social Media App",
-    description: "A feature-rich social media platform for community engagement.",
-    imageUrl: "https://via.placeholder.com/400",
-    link: "#project5",
-  },
-  {
-    title: "Travel Booking Platform",
-    description: "A comprehensive travel booking platform with user-friendly features.",
-    imageUrl: "https://via.placeholder.com/400",
-    link: "#project6",
-  },
+  }
 ];
 
 const ShowcaseProjects = () => {
