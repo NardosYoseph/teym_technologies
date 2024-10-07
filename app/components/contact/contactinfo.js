@@ -15,15 +15,15 @@ const ContactInformation = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div className="bg-white p-6 rounded-lg shadow-lg text-center">
             <h3 className="text-2xl font-bold text-gray-800 mb-2">Phone</h3>
-            <p className="text-gray-600">+1 (234) 567-890</p>
+            <p className="text-gray-600">+2519-032-805-11</p>
           </div>
           <div className="bg-white p-6 rounded-lg shadow-lg text-center">
             <h3 className="text-2xl font-bold text-gray-800 mb-2">Email</h3>
-            <p className="text-gray-600">info@yourcompany.com</p>
+            <p className="text-gray-600">info@teymtechnologies.com</p>
           </div>
           <div className="bg-white p-6 rounded-lg shadow-lg text-center">
             <h3 className="text-2xl font-bold text-gray-800 mb-2">Address</h3>
-            <p className="text-gray-600">123 Main St, City, State, 12345</p>
+            <p className="text-gray-600">Addis Ababa, Ethiopia</p>
           </div>
         </div>
       </div>
