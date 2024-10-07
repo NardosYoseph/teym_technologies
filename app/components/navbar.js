@@ -29,8 +29,9 @@ const Navbar = ({ isOverview }) => {
             </svg>
           ) : (
             <div className="container mx-auto flex justify-between items-center py-4 px-6"><Link href="/" className="text-2xl font-bold">
-                <span className={isOverview ? 'text-black' : 'text-blue-100'}>TeymTech</span>
-              </Link><svg
+              <div>  <span className={isOverview ? 'text-black' : 'text-blue-100'}>TeymTech</span></div>
+               </Link>
+               <div><svg
                 className="w-6 h-6"
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -38,7 +39,7 @@ const Navbar = ({ isOverview }) => {
                 stroke="currentColor"
               >
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16m-7 6h7" />
-                </svg></div>
+                </svg></div></div>
           )}
         </button>
         <ul className={`flex space-x-6 md:flex md:items-center ${isOpen ? "block" : "hidden"} md:block`}>
