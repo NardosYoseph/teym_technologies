@@ -29,7 +29,7 @@ const CTA = () => {
           whileHover={{ scale: 1.1 }}
         >
           <a
-            href="#contact"
+            href="/pages/contact"
             className="inline-block bg-white text-blue-800 px-8 py-4 rounded-lg font-semibold text-lg transition-transform duration-300 ease-in-out hover:bg-blue-200"
           >
             Get Started Now

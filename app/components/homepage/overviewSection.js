@@ -45,7 +45,7 @@ export default function Overview() {
           We build innovative software solutions for businesses that thrive in the digital age.
         </p>
         <a
-          href="#services"
+          href="/pages/services"
           className="inline-block px-6 py-3 bg-blue-500 text-white font-semibold rounded-lg shadow-lg hover:bg-blue-400 transition-all duration-300 ease-in-out transform hover:scale-105 "
         >
           Explore Our Services
